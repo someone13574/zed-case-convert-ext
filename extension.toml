@@ -1,0 +1,11 @@
+id = "case-convert"
+name = "Field case converter"
+version = "0.0.1"
+schema_version = 1
+authors = ["Owen Law <owenlaw222@gmail.com>"]
+description = "LSP to give actions for field case conversion"
+repository = "https://github.com/someone13574/zed-case-convert-ext"
+
+[language_servers.case-convert]
+name = "Case Convert"
+languages = ["C", "C++", "Python", "Rust"]
